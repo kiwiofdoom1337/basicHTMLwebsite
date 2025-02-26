@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="me">
+        <meta name="description" content="">
+        <meta name="keywords" content="HTML, Webpage, Frontend Developer">
+        <meta property="og:title" content="Home Page">
+        <meta property="og:description" content="">
+        <meta property="og:locale" content="en_GB">
+        <!-- <link rel="stylesheet" href="/style.css"> -->
+        <link rel="icon" href="/favicon.png" type="img/x-icon">
+        <title>Home Page</title>
+    </head>
+    <body>
+        <header>
+            <h1>Frontend Developer</h1>
+            <p>my name</p>
+            <nav>
+                <p><a href="/">Home</a></p>
+                <p><a href="/projects.html">Projects</a></p>
+                <p><a href="/articles.html">Articles</a></p>
+                <p><a href="/contact.html">Contact</a></p>
+            </nav>
+        </header>
+        <main>
+            <h2>Contact Me!</h2>
+            <form action="https://httpbin.org/post" method="post">
+                <fieldset>
+                    <legend>Contant Form</legend>
+                    <label for="firstName">Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Your name" required>
+                    <label for="lastName">Surname:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Your surname" required>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                    </p>
+                </fieldset>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; all rights reserved 2025</p>
+        </footer>
+    </body>
+</html>
